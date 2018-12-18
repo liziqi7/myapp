@@ -1,13 +1,16 @@
 import React from 'react'
 import { HashRouter as Router, Route,Switch,Redirect } from 'react-router-dom'
+import App from './App'
 import Index from './c01/index'
 import Time from './c01/time'
 import CommentBox from './c02/comments'
 import SnapshotSample from './c04/snapshotSample'
 import Func from './c05/func'
 import Advanced_tab_select from './c05/advanced_tab_select'
-import App from './App'
 import LocaleSample from './c07/localeSample'
+import PureRedux from './c11/pureRedux'
+
+
 
 const routeMap={
     "index":Index,
@@ -16,7 +19,8 @@ const routeMap={
     "snapshpt-sample":SnapshotSample,
     "func":Func,
     "advanced-tab-select":Advanced_tab_select,
-    'locale-sample':LocaleSample
+    'locale-sample':LocaleSample,
+    'pure-Redux':PureRedux
 }
 export default class IRouter extends React.Component {
     render(){
