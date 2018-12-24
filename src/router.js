@@ -10,7 +10,7 @@ import Advanced_tab_select from './c05/advanced_tab_select'
 import LocaleSample from './c07/localeSample'
 import PureRedux from './c11/pureRedux'
 import Counter from './c12/Counter'
-
+import RouterSample from './c16/RouterSample'
 
 const routeMap={
     "index":Index,
@@ -21,7 +21,8 @@ const routeMap={
     "advanced-tab-select":Advanced_tab_select,
     'locale-sample':LocaleSample,
     'pure-Redux':PureRedux,
-    'Counter':Counter
+    'Counter':Counter,
+    'RouterSample':RouterSample
 }
 export default class IRouter extends React.Component {
     render(){
